@@ -135,7 +135,7 @@ class CMock
 	  file << "#ifndef _MOCK_MAIN\n"
 	  file << "#define _MOCK_MAIN\n\n"
 	  file << "#include \"exportDeclaration.h\"\n"
-	  file << "#include \"goth_datatypes.h\"\n\n"
+	  file << "#include \"goth_defns.h\"\n\n"
 	  intrinsicFiles.each do |intFile|
         file << "#include \"#{intFile}\"\n"
 	  end
